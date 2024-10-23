@@ -1,10 +1,12 @@
+import Navber from './AllComponents/Navbar/Navber'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <h1 className='font-bold text-3xl'>hello my new google font</h1>
+    {/* Navber component here */}
+    <Navber></Navber>
     </>
   )
 }
