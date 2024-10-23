@@ -5,6 +5,7 @@ import Cards from './AllComponents/RecipesCard/Cards'
 import Recipe from './AllComponents/Recipi/Recipe'
 import Sidebar from './AllComponents/Sidebar/Sidebar'
 import './App.css'
+import Footer from './AllComponents/Footer/Footer'
 
 function App() {
   const [recipeQueue, setRecipeQueue] = useState([])
@@ -66,6 +67,8 @@ function App() {
 
     </Sidebar>
     </section>
+    {/* footer section here */}
+    <Footer></Footer>
     </>
   )
 }
