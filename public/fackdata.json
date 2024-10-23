@@ -1,6 +1,6 @@
 [
   {
-    "recipe_id": "001",
+    "recipe_id": "1",
     "recipe_name": "Spaghetti Carbonara",
     "short_description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
     "image_url": "https://i.ibb.co.com/9YgPnnN/FO1-D41-23785-s4x3.jpg",
@@ -17,7 +17,7 @@
     "calories": 400
   },
   {
-    "recipe_id": "002",
+    "recipe_id": "2",
     "recipe_name": "Chicken Caesar Salad",
     "short_description": "A fresh, crisp Caesar salad with grilled chicken, Parmesan, croutons, and Caesar.",
     "image_url": "https://i.ibb.co.com/yp0QRbB/3186344-9400cb8415144a2db2660cd6762c8cde.jpg",
@@ -34,7 +34,7 @@
     "calories": 350
   },
   {
-    "recipe_id": "003",
+    "recipe_id": "3",
     "recipe_name": "Beef Tacos",
     "short_description": "Flavorful beef tacos with seasoned ground beef, fresh toppings, and tortillas.",
     "image_url": "https://i.ibb.co.com/pnRCFff/Beef-Tacos.jpg",
@@ -52,7 +52,7 @@
     "calories": 500
   },
   {
-    "recipe_id": "004",
+    "recipe_id": "4",
     "recipe_name": "Vegetable Stir-Fry",
     "short_description": "A quick and healthy stir-fry with a mix of colorful vegetables and a savory sauce.",
     "image_url": "https://i.ibb.co.com/h7YJJ5g/Vegetable-Stir-Fry-9.jpg",
@@ -70,7 +70,7 @@
     "calories": 180
   },
   {
-    "recipe_id": "005",
+    "recipe_id": "5",
     "recipe_name": "Beef Tacos",
     "short_description": "Flavorful beef tacos with seasoned ground beef, fresh toppings, and tortillas.",
     "image_url": "https://i.ibb.co.com/pnRCFff/Beef-Tacos.jpg",
@@ -87,7 +87,7 @@
     "calories": 500
   },
   {
-    "recipe_id": "006",
+    "recipe_id": "6",
     "recipe_name": "Chicken Caesar Salad",
     "short_description": "A fresh, crisp Caesar salad with grilled chicken, Parmesan, croutons, and Caesar.",
     "image_url": "https://i.ibb.co.com/yp0QRbB/3186344-9400cb8415144a2db2660cd6762c8cde.jpg",
