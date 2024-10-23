@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
-const Cards = () => {
+const Cards = ({handleWantToCookBtn}) => {
   const[cards, setCards] = useState([])
 
   useEffect(()=>{
@@ -11,9 +11,9 @@ const Cards = () => {
   }, [])
 
   return (
-    <div className="w-full md:w-2/3 md: grid md:grid-cols-2 md:gap-6">
+    <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
       {
-        cards.map((card, idx)=> <Card key={idx} card={card}></Card>)
+        cards.map((card, idx)=> <Card handleWantToCookBtn={handleWantToCookBtn} key={idx} card={card}></Card>)
       }
     </div>
   );

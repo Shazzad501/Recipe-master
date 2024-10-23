@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Banner from './AllComponents/Banner/Banner'
 import Navber from './AllComponents/Navbar/Navber'
 import Cards from './AllComponents/RecipesCard/Cards'
@@ -6,7 +7,18 @@ import Sidebar from './AllComponents/Sidebar/Sidebar'
 import './App.css'
 
 function App() {
+  const [recipeQueue, setRecipeQueue] = useState([])
 
+  const handleWantToCookBtn = (recipe)=>{
+    const isExist = recipeQueue.find(prevRecipe=> prevRecipe.recipe_id === recipe.recipe_id);
+    if(!isExist){
+      setRecipeQueue([...recipeQueue, recipe])
+    }
+    else{
+      alert('It is already existed!!')
+    }
+    
+  }
   return (
     <>
     {/* Navber component here */}
@@ -18,9 +30,9 @@ function App() {
     {/* Recipe card section here */}
     <section className='w-11/12 mx-auto flex flex-col md:flex-row gap-5 justify-between'>
     {/* card */}
-    <Cards></Cards>
+    <Cards handleWantToCookBtn={handleWantToCookBtn}></Cards>
     {/* side bar */}
-    <Sidebar></Sidebar>
+    <Sidebar recipeQueue={recipeQueue}></Sidebar>
     </section>
     </>
   )
